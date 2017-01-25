@@ -1,0 +1,129 @@
+
+
+
+
+
+
+.header {
+    height: 50px;
+    width:100%;
+    background-color: #30d0df;
+    position: fixed;
+    left:auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    z-index: 1;
+}
+#logo {
+    margin:auto;
+    height: 40px;
+    display: block;
+    padding-top: 5px;
+
+
+
+}
+.headerimage {
+  height:250px;
+  width: 100%;
+    background-color: #18181d
+}
+#head-wrapper {
+    padding-top: 50px;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.header-bottom {
+    height: 50px;
+    border-bottom: 2px solid #f1f1f1;
+
+}
+.type_1 {
+    font-size: 1em;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    text-align: right;
+
+    color: #7b7b7b;
+    list-style: none;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    margin-right: 30%
+  }
+.type_2 {
+    font-size: 0.8em;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    text-align: right;
+    color: #7b7b7b;
+    list-style: none;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    margin-right: 36%
+}
+.website{
+  list-style: none;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow:0 2px 2px #dddddd;
+  background-color: #fff;
+  position:relative;
+}
+.border {
+  border: 2px solid #b0b0b0;
+
+
+  height: 200px;
+  width: 50%;
+
+}
+#sidebar {
+  border-right: 1px solid #dddddd
+}
+.icon {
+  position:absolute;
+  width:150px;
+  margin:auto;
+
+}
+.text-right {
+  position:absolute;
+  left:150px;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+.web-name{
+  margin-left: 5%;
+  margin-top:5%;
+  margin-bottom: 1%;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  color: #30d0df;
+  font-size: 1em;
+}
+.web-des{
+  margin-left: 5%;
+  margin-right:5%;
+  margin-bottom: 2%;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  color: #4e627a;
+  font-size: 0.8em;
+}
+.tag {
+  font-size: 0.5em;
+  border:1px solid #4e627a;
+  background-color: inherit;
+  border-radius: 4px;
+  margin-left: 4.5%;
+}
+.web-icon {
+  height: 60px;
+  width: 60px;
+  margin:45px;
+  border-radius: 30px;
+  border: 1px solid #4e627a;
+  display:-webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+}
