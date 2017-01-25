@@ -5,40 +5,85 @@
 
 
 .header {
-    height: 50px;
-    width:100%;
-    background-color: #30d0df;
-    position: fixed;
-    left:auto;
-    right: auto;
-    top: auto;
-    bottom: auto;
-    z-index: 1;
+    height: 40px;
+
+
+}
+.nav{
+  margin-top: 50px;
+  width:100%;
+  position: relative;
+
+
 }
 #logo {
-    margin:auto;
+    position: relative;
+    margin: auto;
     height: 40px;
     display: block;
-    padding-top: 5px;
+
 
 
 
 }
 .headerimage {
-  height:250px;
+  height:550px;
   width: 100%;
-    background-color: #18181d
+  background-color: #ffffff;
+
+}
+.img-container{
+  position: relative;
+  width:85%;
+  height: 100%;
+  padding-top: 50px;
+  margin: auto;
+}
+.header-text{
+  position:relative;
+  padding-top: 50px;
+  width:400px;
+
+}
+.link {
+  text-decoration: none;
+  color:inherit;
+}
+#slogan {
+  font-size: 2em;
+font-family: 'Bungee Shade', cursive;
+  color: #9a989d;
+}
+#copywriting {
+  font-size: 1em;
+  font-family:"Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  color: #36434d;
+  margin-top: 0;
 }
 #head-wrapper {
-    padding-top: 50px;
-    height: 200px;
-    width: 200px;
+
+    height: 500px;
+    width: 500px;
     display: block;
-    margin: 0 auto;
+    position: absolute;
+    right:5%;
+}
+.submit {
+  height:40px;
+  width:120px;
+  background-color: #2b9cf2;
+  border: none;
+  border-radius: 5px;
+}
+.btn-text {
+  color:#fff;
+  font-family: 'Varela Round', sans-serif;
+  text-decoration: none;
 }
 .header-bottom {
     height: 50px;
     border-bottom: 2px solid #f1f1f1;
+
 
 }
 .type_1 {
@@ -81,7 +126,7 @@
 
 }
 #sidebar {
-  border-right: 1px solid #dddddd
+  border-right: 0.5px solid #dddddd;
 }
 .icon {
   position:absolute;
@@ -92,6 +137,7 @@
 .text-right {
   position:absolute;
   left:150px;
+  right:20px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
 .web-name{
@@ -99,7 +145,7 @@
   margin-top:5%;
   margin-bottom: 1%;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  color: #30d0df;
+  color: #2b9cf2;
   font-size: 1em;
 }
 .web-des{
@@ -116,6 +162,7 @@
   background-color: inherit;
   border-radius: 4px;
   margin-left: 4.5%;
+
 }
 .web-icon {
   height: 60px;
@@ -126,4 +173,23 @@
   display:-webkit-box;
   -webkit-box-pack:center;
   -webkit-box-align:center;
+}
+.footer {
+  height:49px;
+  border-top: 1px solid grey;
+  border-image: -webkit-linear-gradient( left,#fff,#e0e0e0,#fff) 30 40 30;
+
+}
+.footer-text {
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+
+  height: 30px;
+  font-size: 0.8em;
+  color: #b0b0b0;
+  text-align: center;
+}
+#comment-wall {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: #b0b0b0;
 }
