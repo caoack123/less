@@ -1,102 +1,80 @@
-
-
-
-
-
-
 .header {
     height: 40px;
-
-
 }
-.nav{
-  margin-top: 50px;
-  width:100%;
-  position: relative;
-
-
+.nav {
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
 }
 #logo {
     position: relative;
     margin: auto;
     height: 40px;
     display: block;
-
-
-
-
 }
 .headerimage {
-  height:550px;
-  width: 100%;
-  background-color: #ffffff;
-
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
 }
-.img-container{
-  position: relative;
-  width:85%;
-  height: 100%;
-  padding-top: 50px;
-  margin: auto;
+.img-container {
+    position: relative;
+    width: 85%;
+    height: 100%;
+    padding-top: 50px;
+    margin: auto;
 }
-.header-text{
-  position:relative;
-  padding-top: 50px;
-  width:400px;
-
+.header-text {
+    position: relative;
+    padding-top: px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
 }
 .link {
-  text-decoration: none;
-  color:inherit;
+    text-decoration: none;
+    color: inherit;
 }
 #slogan {
-  font-size: 2em;
-font-family: 'Bungee Shade', cursive;
-  color: #9a989d;
+    font-size: 2em;
+    font-family: 'Bungee Shade', cursive;
+    color: #9a989d;
+    margin: auto;
+    position: relative;
 }
 #copywriting {
-  font-size: 1em;
-  font-family:"Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  color: #36434d;
-  margin-top: 0;
-}
-#head-wrapper {
-
-    height: 500px;
-    width: 500px;
-    display: block;
-    position: absolute;
-    right:5%;
+    font-size: 1em;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    color: #36434d;
+    margin-top: 0;
 }
 .submit {
-  height:40px;
-  width:120px;
-  background-color: #2b9cf2;
-  border: none;
-  border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    background-color: #2b9cf2;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
 }
 .btn-text {
-  color:#fff;
-  font-family: 'Varela Round', sans-serif;
-  text-decoration: none;
+    color: #fff;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
 }
 .header-bottom {
     height: 50px;
     border-bottom: 2px solid #f1f1f1;
-
-
 }
 .type_1 {
     font-size: 1em;
     margin-top: 5%;
     margin-bottom: 8%;
     text-align: right;
-
     color: #7b7b7b;
     list-style: none;
     font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
     margin-right: 30%
-  }
+}
 .type_2 {
     font-size: 0.8em;
     margin-top: 5%;
@@ -105,91 +83,85 @@ font-family: 'Bungee Shade', cursive;
     color: #7b7b7b;
     list-style: none;
     font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-    margin-right: 36%
+    margin-right: 36%;
+    cursor: pointer;
 }
-.website{
-  list-style: none;
-  margin-bottom: 10%;
-  margin-top: 5%;
-  height: 150px;
-  border-radius: 5px;
-  box-shadow:0 2px 2px #dddddd;
-  background-color: #fff;
-  position:relative;
+.website {
+    list-style: none;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #dddddd;
+    background-color: #fff;
+    position: relative;
 }
 .border {
-  border: 2px solid #b0b0b0;
-
-
-  height: 200px;
-  width: 50%;
-
+    border: 2px solid #b0b0b0;
+    height: 200px;
+    width: 50%;
 }
 #sidebar {
-  border-right: 0.5px solid #dddddd;
+    border-right: 0.5px solid #dddddd;
 }
 .icon {
-  position:absolute;
-  width:150px;
-  margin:auto;
-
+    position: absolute;
+    width: 150px;
+    margin: auto;
 }
 .text-right {
-  position:absolute;
-  left:150px;
-  right:20px;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    position: absolute;
+    left: 150px;
+    right: 20px;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
-.web-name{
-  margin-left: 5%;
-  margin-top:5%;
-  margin-bottom: 1%;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  color: #2b9cf2;
-  font-size: 1em;
+.web-name {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    color: #2b9cf2;
+    font-size: 1em;
 }
-.web-des{
-  margin-left: 5%;
-  margin-right:5%;
-  margin-bottom: 2%;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  color: #4e627a;
-  font-size: 0.8em;
+.web-des {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    color: #4e627a;
+    font-size: 0.8em;
 }
 .tag {
-  font-size: 0.5em;
-  border:1px solid #4e627a;
-  background-color: inherit;
-  border-radius: 4px;
-  margin-left: 4.5%;
-
+    font-size: 0.5em;
+    border: 1px solid #4e627a;
+    background-color: inherit;
+    border-radius: 4px;
+    margin-left: 4.5%;
 }
 .web-icon {
-  height: 60px;
-  width: 60px;
-  margin:45px;
-  border-radius: 30px;
-  border: 1px solid #4e627a;
-  display:-webkit-box;
-  -webkit-box-pack:center;
-  -webkit-box-align:center;
+    height: 60px;
+    width: 60px;
+    margin: 45px;
+    border-radius: 30px;
+    border: 0px solid #4e627a;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
 }
 .footer {
-  height:49px;
-  border-top: 1px solid grey;
-  border-image: -webkit-linear-gradient( left,#fff,#e0e0e0,#fff) 30 40 30;
-
+    height: 49px;
+    border-top: 1px solid grey;
+    border-image: -webkit-linear-gradient( left, #fff, #e0e0e0, #fff) 30 40 30;
 }
 .footer-text {
-  font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-
-  height: 30px;
-  font-size: 0.8em;
-  color: #b0b0b0;
-  text-align: center;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    height: 30px;
+    font-size: 0.8em;
+    color: #b0b0b0;
+    text-align: center;
 }
 #comment-wall {
-  text-decoration: none;
-  font-size: 0.8em;
-  color: #b0b0b0;
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #b0b0b0;
 }
