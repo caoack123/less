@@ -9,7 +9,7 @@
 #logo {
     position: relative;
     margin: auto;
-    height: 40px;
+    height: 50px;
     display: block;
 }
 .headerimage {
@@ -73,7 +73,8 @@
     color: #7b7b7b;
     list-style: none;
     font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-    margin-right: 30%
+    margin-right: 30%;
+    cursor:default;
 }
 .type_2 {
     font-size: 0.8em;
