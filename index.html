@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
    <head>
-	   <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PP5WVWZ');</script>
-<!-- End Google Tag Manager -->
+	
+	   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-222086251-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-222086251-1');
+</script>
+
+	   
 	   <!-- Event snippet for Sign-up conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
+	
 function gtag_report_conversion(url) {
   var callback = function () {
     if (typeof(url) != 'undefined') {
@@ -25,6 +31,7 @@ function gtag_report_conversion(url) {
 }
 </script>
 
+	   
       <link href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" rel="stylesheet">
       <meta charset="utf-8">
       <link href="style.css" rel="stylesheet" type="text/css">
@@ -32,6 +39,7 @@ function gtag_report_conversion(url) {
       <link rel="apple-touch-startup-image" href="image/launch.png">
 
       <title>Less|互联网智能导航</title>
+	   gtag('config', 'AW-10839633508');
    </head>
    <body>
 	   <!-- Google Tag Manager (noscript) -->
