@@ -8,6 +8,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-PP5WVWZ');</script>
 <!-- End Google Tag Manager -->
+	   <!-- Event snippet for Sign-up conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-10839633508/J7tACM3z3qYDEOTc3rAo',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
       <link href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" rel="stylesheet">
       <meta charset="utf-8">
       <link href="style.css" rel="stylesheet" type="text/css">
@@ -139,7 +156,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
          </div>
          <div class="footer">
-            <p class='footer-text'>@2016 Less Beta1.0 Created with love <a href="#" id='comment-wall'>吐槽墙</a></p>
+            <p class='footer-text' onclick="gtag_report_conversion">@2016 Less Beta1.0 Created with love <a href="#" id='comment-wall'>吐槽墙</a></p>
          </div>
       </div>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -219,6 +236,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 			</script>
-	   <button>sign up</button>
+	
    </body>
 </html>
